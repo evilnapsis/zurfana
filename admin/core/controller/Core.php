@@ -7,6 +7,9 @@
 
 class Core {
 
+	public static $debug_sql = false;
+	public static $user = null;
+
 	public static function includeCSS(){
 		$path = "res/css/";
 		$handle=opendir($path);
@@ -24,12 +27,13 @@ class Core {
 		}
 
 	}
-	public static function alert($text){
-		echo "<script>alert('".$text."');</script>";
-	}
 
 	public static function redir($url){
 		echo "<script>window.location='".$url."';</script>";
+	}
+
+	public static function alert($txt){
+		echo "<script>alert('".$txt."');</script>";
 	}
 
 	public static function includeJS(){

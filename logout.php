@@ -1,4 +1,10 @@
 <?php
+/**
+ * logout.php
+ * 
+ * Cierra la sesión del usuario.
+ * author: @evilnapsis
+ */
 session_start();
 // ---
 // la tarea de este archivo es eliminar todo rastro de cookie

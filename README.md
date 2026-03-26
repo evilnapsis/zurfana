@@ -1,2 +1,9 @@
 # zurfana
-Sistema de Teinda en Linea Milti vendedor con Super administrador...
+Sistema de Tienda en Linea Multi vendedor con Super administrador...
+
+## Modules
+- Productos
+- Usuarios
+- Categorias
+- Mensajes
+- Slider

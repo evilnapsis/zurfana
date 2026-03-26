@@ -1,6 +1,8 @@
 /**
 @author evilnapsis
 @brief Modelo de base de datos
+@version 2.0
+@update 2026-03-26
 **/
 create database zurfana;
 use zurfana;
@@ -65,7 +67,7 @@ create table s (
 );
 
 insert into s (name) value ("Pendiente"),("En Revision"),("Publicado"),("Rechazado");
-
+insert into s(name) value("Vendido");
 
 create table product (
 	id int not null auto_increment primary key,
@@ -92,6 +94,7 @@ create table product (
 	category_id int not null,
 /*	unit_id int not null, */
 	user_id int not null,
+	client_id int , /*id del cliente que compro el producto */
 	s_id int not null,
 	/** for SEO **/
 	meta_title varchar(100),

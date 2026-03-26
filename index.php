@@ -1,4 +1,11 @@
 <?php
+/**
+ * index.php
+ * 
+ * Punto de entrada principal de la aplicación.
+ * Carga el autoload, inicializa el framework y carga el módulo de inicio.
+ * author: @evilnapsis
+ */
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);

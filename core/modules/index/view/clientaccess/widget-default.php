@@ -1,35 +1,36 @@
-<br><br><br><br>
-<div class="container">
-	<div class="row">
-		<div class="col-md-3"></div>
-		<div class="col-md-6">
-			<div class="panel panel-default">
-				<div class="panel-heading">ACCESO DE USUARIOS</div>
-				<div class="panel-body">
-<form class="form-horizontal" role="form" method="post" action="index.php?action=clientaccess">
-
-  <div class="form-group">
-    <label for="inputEmail1" class="col-lg-2 control-label">Correo Electronico</label>
-    <div class="col-lg-10">
-      <input type="email" name="email" class="form-control" id="inputEmail1" placeholder="Correo Electronico">
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow-sm border-0">
+        <div class="card-header bg-dark text-white py-3">
+          <h2 class="h5 mb-0 text-center fw-bold">ACCESO DE USUARIOS</h2>
+        </div>
+        <div class="card-body p-4 p-md-5">
+          <form method="post" action="index.php?action=clientaccess">
+            <div class="mb-4">
+              <label for="inputEmail" class="form-label fw-bold">Correo Electrónico</label>
+              <div class="input-group">
+                <span class="input-group-text bg-light"><i class="fa fa-envelope-o text-muted"></i></span>
+                <input type="email" name="email" class="form-control form-control-lg" id="inputEmail" placeholder="ejemplo@correo.com" required>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label for="inputPassword" class="form-label fw-bold">Contraseña</label>
+              <div class="input-group">
+                <span class="input-group-text bg-light"><i class="fa fa-lock text-muted"></i></span>
+                <input type="password" name="password" class="form-control form-control-lg" id="inputPassword" placeholder="Tu contraseña" required>
+              </div>
+            </div>
+            <div class="d-grid mt-5">
+              <button type="submit" class="btn btn-primary btn-lg fw-bold shadow-sm">Iniciar Sesión</button>
+            </div>
+          </form>
+          <div class="text-center mt-4">
+            <p class="mb-0 text-muted">¿No tienes una cuenta? <a href="index.php?view=register" class="text-decoration-none fw-bold">Regístrate aquí</a></p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="form-group">
-    <label for="inputPassword1" class="col-lg-2 control-label">Contrase&ntilde;a</label>
-    <div class="col-lg-10">
-      <input type="password" name="password" class="form-control" id="inputPassword1" placeholder="Contrase&ntilde;a">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-lg-offset-2 col-lg-10">
-      <button type="submit" class="btn btn-block btn-default">Registrarme</button>
-    </div>
-  </div>
-</form>
-				</div>
-			</div>
-		</div>
-	</div>
 </div>
-<br><br><br>
 

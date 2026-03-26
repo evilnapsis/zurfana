@@ -31,5 +31,6 @@ include "controller/Post.php";
 include "controller/Cookie.php";
 include "controller/Session.php";
 include "controller/Lb.php";
+include "controller/Extra.php";
 
 ?>

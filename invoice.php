@@ -1,4 +1,10 @@
 <?php
+/**
+ * invoice.php
+ * 
+ * Genera la factura de una compra en formato PDF.
+ * author: @evilnapsis
+ */
 include "core/autoload.php";
 include "admin/core/modules/index/model/BuyData.php";
 include "admin/core/modules/index/model/BuyProductData.php";
